@@ -13,7 +13,7 @@
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
-    <span class="title">{{entry.title}}</span>
+    <span class="title"><b>{{entry.title}}</b></span>
     <span class="author">
       {% for author in entry.author_array %}
         {% unless forloop.last %}
@@ -74,6 +74,9 @@
   {% endif %}
   {% if entry.slides %}
     [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
+  {% endif %}
+  {% if entry.projectpage %}
+    [<a href="{{ entry.projectpage }}" target="_blank">Project Page</a>]
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
