@@ -5,11 +5,13 @@ title: <strong>Krishna Murthy</strong> Jatavallabhula
 description: PhD Student at <a href="https://mila.quebec/en/">MILA</a>
 
 profile:
-  align: right
+  align: rjight
   image: prof_pic.jpg
 
 news: true
 social: true
+---
+
 ---
 
 I am a first year PhD student at the [Montreal Institute of Learning Algorithms (MILA)](https://mila.quebec/en/), advised by [Dr. Liam Paull](https://people.csail.mit.edu/lpaull/).
