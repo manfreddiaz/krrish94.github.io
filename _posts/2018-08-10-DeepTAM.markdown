@@ -1,0 +1,11 @@
+---
+layout: post
+title: DeepTAM Deep Tracking and Mapping
+date: 2018-08-08 11:59:00-0400
+description: A description of <a href="https://arxiv.org/pdf/1808.01900.pdf">this paper</a>
+comments: true
+---
+
+I recently came across this interesting paper, and thought "I should write about this". Normally, I'd have procrastinated, but then I came across this [reddit thread](https://www.reddit.com/r/computervision/comments/9626qx/how_is_machine_learning_used_in_tracking_and/). So, here goes.
+
+
