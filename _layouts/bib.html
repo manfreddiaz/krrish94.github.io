@@ -10,6 +10,11 @@
 {% endif %}
 
 <div id="{{entry.key}}">
+
+  {% if entry.image %}
+  <img src="{{entry.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="width:100%;max-width=100px">
+  {% endif %}
+
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
