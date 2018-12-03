@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Krishna Murthy Jatavallabhula
+name: Krishna Murthy
+title: Krishna Murthy
 email: krrish94@gmail.com
 description: > # this means to ignore newlines until "url:"
   Krishna's homepage. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -11,7 +12,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+last_updated: December 02 2018 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -22,7 +23,7 @@ linkedin_username: krishna-murthy-jatavallabhula-13b78142 # put your linkedin us
 scholar_authorid: kcr8134AAAAJ # put your google scholar author id
 contact_note: >
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-130243767-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog

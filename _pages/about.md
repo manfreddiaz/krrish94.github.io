@@ -13,8 +13,8 @@ social: true
 ---
 
 
-I am a first year PhD student at the [Montreal Institute of Learning Algorithms (MILA)](https://mila.quebec/en/), advised by [Dr. Liam Paull](https://people.csail.mit.edu/lpaull/). My interests are diverse; predominantly along the intersections of [deep learning](https://www.technologyreview.com/s/513696/deep-learning/), [computer vision](https://hayo.io/computer-vision/), and [autonomous robotics](https://en.wikipedia.org/wiki/Robotics).
+I am a first year PhD student at [Mila](https://mila.quebec/en/) (previously, Montreal Institute for Learning Algorithms), advised by [Dr. Liam Paull](https://people.csail.mit.edu/lpaull/). My interests are diverse; predominantly along the intersections of [deep learning](https://www.technologyreview.com/s/513696/deep-learning/), [computer vision](https://hayo.io/computer-vision/), and [autonomous robotics](https://en.wikipedia.org/wiki/Robotics).
 
-Specifically, I believe that unsupervised/self-supervised learning holds great potential, especially for challenging robotic perception problems such as SLAM (Simultaneous Localization and Mapping) and autonomous driving. I am currently investigating the applicability of projective geometry as a rich perceptual signal for learning such capabilities.
+Currently, I am working on some of the hard problems in perception that limit the deployability of robots to controlled environments. I am specifically interested in leveraging deep learning and tightly integrating it with *classical methods* for state estimation and prediction. Autonomous driving and indoor 3D mapping are two primary use-cases for my research.
 
 When I'm not doing research, I love to spend time writing technical blogs, tutorials, and open-source code.
