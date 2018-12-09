@@ -1,5 +1,10 @@
 ---
 ---
+<div id="publications">
+<table style="width:100%">
+  <col width="40%">
+  <col width="60%">
+<tr>
 
 {% if entry.abbr %}
   {% if site.data.venues[entry.abbr] %}
@@ -11,10 +16,13 @@
 
 <div id="{{entry.key}}">
 
+  <td>
   {% if entry.image %}
-  <img src="{{entry.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="width:100%;max-width=100px">
+  <img src="{{entry.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="width:100%;max-width=50px">
   {% endif %}
+  </td>
 
+  <td>
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
@@ -97,4 +105,10 @@
     <p>{{ entry.abstract }}</p>
   </span>
   {% endif %}
+  </td>
+</div>
+
+</tr>
+</table>
+
 </div>
