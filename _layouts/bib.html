@@ -68,34 +68,34 @@
 
   <span class="links">
   {% if entry.abstract %}
-    [<a class="abstract">Abs</a>]
+    <a class="abstract">Abstract</a>
   {% endif %}
   {% if entry.arxiv %}
-    [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
+    <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" class="buttonTT">arXiv</a>
   {% endif %}
   {% if entry.html %}
     [<a href="{{ entry.html }}" target="_blank">HTML</a>]
   {% endif %}
   {% if entry.pdf %}
-    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
+    <a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" class="buttonTT">PDF</a>
   {% endif %}
   {% if entry.supp %}
-    [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
+    <a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" class="buttonMM">Supplementary</a>
   {% endif %}
   {% if entry.poster %}
-    [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>]
+    <a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" class="buttonMM">Poster</a>
   {% endif %}
   {% if entry.slides %}
-    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
+    <a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>
   {% endif %}
   {% if entry.projectpage %}
-    [<a href="{{ entry.projectpage }}" target="_blank">Project Page</a>]
+    <a href="{{ entry.projectpage }}" target="_blank" class="buttonPP">Project Page</a>
   {% endif %}
   {% if entry.code %}
-    [<a href="{{ entry.code }}" target="_blank">Code</a>]
+    <a href="{{ entry.code }}" target="_blank" class="buttonMM">Code</a>
   {% endif %}
   {% if entry.video %}
-    [<a href="{{ entry.video }}" target="_blank">Video</a>]
+    <a href="{{ entry.video }}" target="_blank" class="buttonSS">Video</a>
   {% endif %}
   </span>
 
