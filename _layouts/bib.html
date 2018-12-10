@@ -98,14 +98,48 @@
   {% if entry.video %}
     <a href="{{ entry.video }}" target="_blank" class="buttonSS">Video</a>
   {% endif %}
+
+  <!-- BibTeX -->
+  <a class="bibtex">BibTeX</a>
+
   </span>
 
   <!-- Hidden abstract block -->
   {% if entry.abstract %}
+  <div id="abstract">
   <span class="abstract hidden">
     <p>{{ entry.abstract }}</p>
   </span>
+  </div>
   {% endif %}
+
+  <!-- Hidden BibTeX block -->
+  <div id="mybibtex">
+  <span class="bibtex hidden">
+    <p>
+      @article{ {{ entry.key }}, <br>
+      author = { {% for author in entry.author_array %} 
+                  {% unless forloop.last %}
+                      {{ author.last }}, {{ author.first }} and
+                    {% else %}
+                      {{ author.last }}, {{ author.first }} 
+                    {% endunless %}
+                  {% endfor %} }, <br>
+      title = { {{ entry.title }} }, <br>
+      {% if entry.journal %}
+        journal = { {{ entry.journal}} }, <br>
+      {% endif %}
+      {% if entry.booktitle %}
+        journal = { {{ entry.booktitle}} }, <br>
+      {% endif %}
+      {% if entry.year %}
+        year = { {{ entry.year }} }, <br>
+      {% endif %}
+      }
+    </p>
+  </span>
+  </div>
+
   </td>
 </div>
 
