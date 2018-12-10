@@ -2,8 +2,8 @@
 ---
 <div id="publications">
 <table style="width:100%">
-  <col width="40%">
-  <col width="60%">
+  <col width="45%">
+  <col width="55%">
 <tr>
 
 {% if entry.abbr %}
@@ -18,7 +18,7 @@
 
   <td>
   {% if entry.image %}
-  <img src="{{entry.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="width:100%;max-width=50px">
+  <img src="{{entry.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="width:100%;">
   {% endif %}
   </td>
 
