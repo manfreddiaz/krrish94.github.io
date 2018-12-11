@@ -70,14 +70,16 @@ $darken-2:          rgba(#000,.125) !default;
 $darken-3:          rgba(#000,.25) !default;
 $darken-4:          rgba(#000,.5) !default;
 
-$theme-color:       $purple;
-$code-color:        $dark-gray;
-$text-color:        $mid-gray;
+$theme-color:       DodgerBlue;
+$code-color:        Black;
+$text-color: 		$dark-gray;
+// $text-color:        $mid-gray;
 $background-color:  white;
 
 // Links
 $link-color:        $theme-color;
-$link-hover-color:  darken($theme-color, 40%);
+$link-hover-color:  DeepSkyBlue;
+// $link-hover-color:  darken($theme-color, 80%);
 
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';

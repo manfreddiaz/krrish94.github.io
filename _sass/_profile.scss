@@ -26,7 +26,12 @@
         width: 100%;
 
         .date { width: 19%; }
-        .announcement { width: 81%; }
+        .announcement { 
+            width: 81%; 
+            a {
+                color: Purple;
+            }
+        }
 
         tr { text-align: left; }
         td {

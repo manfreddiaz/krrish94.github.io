@@ -1,7 +1,7 @@
 ---
 ---
 <div id="publications">
-<table style="width:100%">
+<table style="width:100%" cellspacing="0">
   <col width="25%">
   <col width="75%">
 <tr>
@@ -16,13 +16,13 @@
 
 <div id="{{entry.key}}">
 
-  <td style="border-left: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000;">
+  <td style="border-left: 1px solid #000000; border-bottom: 1px solid #000000;">
   {% if entry.image %}
   <img src="{{entry.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" style="width:100%;">
   {% endif %}
   </td>
 
-  <td style="border-bottom: 1px solid #000000; border-right: 1px solid #000000; border-left: 1px solid #000000;">
+  <td style="border-bottom: 1px solid #000000; border-right: 1px solid #000000;">
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
