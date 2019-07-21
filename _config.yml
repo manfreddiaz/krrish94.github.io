@@ -28,13 +28,13 @@ google_analytics: UA-130243767-1 # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Krishna Murthy Jatavallabhula
-blog_description: PhD Student at MILA
+# blog_name: Krishna Murthy Jatavallabhula
+# blog_description: PhD Student at MILA
 
 # Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+# paginate: 4
+# permalink: /blog/:year/:title/
+# paginate_path: /blog/page:num/
 
 text:
   pagination:
